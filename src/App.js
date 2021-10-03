@@ -1,13 +1,13 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
-import NavPage from "./pages/NavPage";
-import TestPage from "./pages/TestPage";
-import TopNavPage from "./pages/nav/TopNavPage";
-import SidebarFixedRightPage from "./pages/nav/SidebarFixedRightPage";
-import SidebarFixedLeftPage from "./pages/nav/SidebarFixedLeftPage";
-import FooterPage from "./pages/nav/FooterPage";
+import HomePage from "./pages/home-page";
+import AboutPage from "./pages/about-page";
+import NavPage from "./pages/nav-page";
+import TestPage from "./pages/test-page";
+import TopNavPage from "./pages/nav/top-nav-page";
+import SidebarFixedRightPage from "./pages/nav/sidebar-fixed-right-page";
+import SidebarFixedLeftPage from "./pages/nav/sidebar-fixed-left-page";
+import FooterPage from "./pages/nav/footer-page";
 
 function App() {
   return (
